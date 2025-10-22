@@ -6,11 +6,7 @@ Cat::Cat( void ) {
 	brain_ = new Brain();
 }
 
-// Cat::Cat( const Cat &other ) : AAnimal(other) {
-// 	std::cout << "Cat copy constructor called." << std::endl;
-// 	brain_ = new Brain(*(other.brain_));
 Cat::Cat( const Cat &other ) : AAnimal( other ) {
-	type = other.type;
 	std::cout << "Cat copy constructor called." << std::endl;
 	brain_ = new Brain(*(other.brain_));
 }
