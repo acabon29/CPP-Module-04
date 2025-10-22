@@ -8,9 +8,9 @@
 class Character : public ICharacter
 {
 	private:
-        static const        int sizeInventory_ = 4;
-		std::string	name;
-		AMateria*	inventory[4];
+        static const int			sizeInventory_ = 4;
+		std::string					name;
+		AMateria*					inventory[4];
 	
 	public:
 		Character( std::string const & name );
