@@ -6,7 +6,7 @@
 
 
 
-int main()
+int main( void )
 {
     std::cout <<"-------------------------" << std::endl;
     size_t size = 6;

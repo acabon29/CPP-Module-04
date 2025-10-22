@@ -9,9 +9,9 @@ class Brain
 		std::string	ideas[100];
 
 	public:
-		Brain();
+		Brain( void );
 		Brain( const Brain &other );
-		~Brain();
+		~Brain( void );
 		Brain&operator=( const Brain &other );
 
 		void setIdea(int index, const std::string& idea);

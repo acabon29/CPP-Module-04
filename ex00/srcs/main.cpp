@@ -8,7 +8,7 @@
 
 
 
-int main()
+int main( void )
 {
     std::cout <<"-------------------------" << std::endl;
     const Animal* meta = new Animal();

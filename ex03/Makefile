@@ -6,15 +6,18 @@ CFLAGS = -Wall -Wextra -Werror -g -std=c++98 -I./includes -I./libs -Ofast
 SRC_DIR = ./srcs
 OBJS_DIR = ./objs
 OUTPUT_DIR ?= .
-NAME ?= WorldOnFire
+NAME ?= Interface 
 
 ###############    Files    ###############
 
 SRC_GENERAL =	main \
-				AAnimal \
-				Cat \
-				Dog \
-				Brain \
+				AMateria \
+				Cure \
+				Ice \
+				Character \
+				ICharacter \
+				IMateriaSource \
+				MateriaSource \
 
 SRC	= $(addprefix $(SRC_DIR)/, $(addsuffix .cpp,	$(SRC_GENERAL) \
 ))

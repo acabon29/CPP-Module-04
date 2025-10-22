@@ -6,7 +6,7 @@ CFLAGS = -Wall -Wextra -Werror -g -std=c++98 -I./includes -I./libs -Ofast
 SRC_DIR = ./srcs
 OBJS_DIR = ./objs
 OUTPUT_DIR ?= .
-NAME ?= WorldOnFire
+NAME ?= Abstract 
 
 ###############    Files    ###############
 
